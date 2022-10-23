@@ -1,0 +1,222 @@
+ /*Main styles */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    color: #22253B;
+    /*background-color: #22253B;*/
+}
+
+.list-style {
+    display: flex;
+    list-style: none;
+}
+
+.headings {
+    font-size: 46px;
+    line-height:46px;
+    font-weight: 600;
+    font-style: normal;
+    margin-bottom: 3rem;
+}
+
+.center-text {
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+/* Container */
+ .container {
+    max-width: 1160px;
+    margin: 0 auto;
+} 
+
+/* Main bg */
+.main {
+    background-image: url("./src/images/main-banner__bg.png");
+    background-repeat: no-repeat;
+    background-position: 80px 20px;
+    background-size: cover;
+}
+
+/* Header */
+.header {
+    backdrop-filter: blur(7.5px);
+    margin: 1rem 0 4rem 0;
+}
+
+/* Navigation */
+.navigation-items {
+    background: rgba(255, 255, 255, 0.9);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 15px;
+    height: 3.25rem;
+    font-size: 13px;
+    border-radius: 75px;
+}
+
+/* Right side */
+.left-side {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    margin-right: 2.5rem;
+}
+
+.navigation-links {
+    line-height: 14px;
+}
+
+.navigation-link {
+    margin-right: 1.25rem;
+    padding: 10px;
+}
+
+.navigation-logins {
+    align-items: center;
+}
+
+.navigation-login {
+    background-color: #38BFF2;
+    border-radius: 34px;
+    padding: 10px 15px;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.navigation-login a {
+    color: #fff;
+}
+
+.arrow-right {
+    padding-right: 5px;
+}
+
+/* Main banner */
+.main-banner {
+    height: 90vh;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 3.5rem;
+}
+
+.main-point {
+    max-width: 45rem;
+}
+
+.brackets {
+    color: #F15525;
+}
+
+.line {
+    display: inline-block;
+    margin-bottom: 1rem;
+    border: 1px solid #DEDEDE;
+    width: 22rem;
+}
+
+.main-point__extra {
+    line-height: 23px;
+    font-size: 16px;
+    max-width: 22rem;
+}
+
+.main-banner__btn {
+    display: inline-block;
+    background: #F15525;
+    border-radius: 82px;
+    padding: 20px 30px;
+    color: #fff;
+    margin-top: 20px;
+    font-size: 17px;
+    font-weight: 400;
+}
+
+/*.north-east-arrow {
+    font-size: 1rem;
+}*/
+
+/* Learning path */
+.learning-path {
+    margin-bottom: 3rem;
+}
+
+.learning-path__column {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 48px;
+    padding: 2.5rem 3rem 0;
+    background: #EAF2F5;
+}
+
+.learning-path__img {
+    width: 30%;
+    margin-left: 2.5rem;
+}
+
+.learning-path__info {
+    align-self: start;
+    width: 50%;
+}
+
+.lang-tools {
+    display: inline-block;
+    font-size: 17px;
+    border-radius: 44px;
+    padding: 15px 30px;
+    margin: 0 5px 20px 0;
+    color: #fff;
+}
+
+.learning-path__desc {
+    max-width: 410px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 25px;
+}
+
+
+/* lang tools colors */
+.blue {
+    background-color: #5096FF;
+}
+
+.yellow {
+    background-color: #FFB359;
+}
+
+.red {
+    background-color: #FF6F50;
+}
+
+.green {
+    background-color: #4BD071;
+}
+
+.cloud {
+    background-color: #50C0FF;
+}
+
+.dark-blue {
+    background-color: #4B77B9;
+}
+
+
+.purple {
+    background-color: #AF93FF;
+}
+
