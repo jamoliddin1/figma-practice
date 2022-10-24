@@ -1,5 +1,7 @@
  /*Main styles */
-
+html {
+    scroll-behavior: smooth;
+}
 * {
     margin: 0;
     padding: 0;
@@ -42,6 +44,7 @@ a {
 
 /* Main bg */
 .main {
+    position: relative;
     background-image: url("./src/images/main-banner__bg.png");
     background-repeat: no-repeat;
     background-position: 80px 20px;
@@ -85,6 +88,10 @@ a {
     padding: 10px;
 }
 
+.navigation-link:hover a {
+    color: #F15525;
+}
+
 .navigation-logins {
     align-items: center;
 }
@@ -101,13 +108,17 @@ a {
     color: #fff;
 }
 
+.navigation-login:hover {
+    background-color: #F15525;
+}
+
 .arrow-right {
     padding-right: 5px;
 }
 
 /* Main banner */
 .main-banner {
-    height: 90vh;
+    height: 75vh;
     display: flex;
     justify-content: space-between;
     margin-bottom: 3.5rem;
@@ -136,6 +147,8 @@ a {
 
 .main-banner__btn {
     display: inline-block;
+    line-height: 97%;
+    letter-spacing: -3%;
     background: #F15525;
     border-radius: 82px;
     padding: 20px 30px;
@@ -145,9 +158,34 @@ a {
     font-weight: 400;
 }
 
-/*.north-east-arrow {
-    font-size: 1rem;
-}*/
+.main-banner__btn:hover {
+    background-color: #38BFF2;
+}
+
+/* Icon arrow */
+.icon-arrow {
+    position: absolute;
+    display: inline-block;
+    text-align: center;
+    font-size: 40px;
+    border-radius: 50%;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    color: #000;
+    width: 50px;
+    height: 50px;
+    background-color: #fff;
+}
+
+.icon-arrow a {
+    transition: .5s all ease-in-out;
+}
+
+.icon-arrow:hover a {
+    display: inline-block;
+    transform: translateY(5px);
+}
 
 /* Learning path */
 .learning-path {
@@ -220,3 +258,26 @@ a {
     background-color: #AF93FF;
 }
 
+/* Features of school */
+.why-choose-us__cards {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.why-choose-us__card {
+    padding: 2rem;
+    background-color: #EAF2F5;
+    border-radius: 30px;
+    max-width: 270px ;
+    margin: 0 20px 15px;
+}
+
+.why-choose-us__card img {
+    padding-bottom: 20px;
+}
+
+.card-title {
+    padding-bottom: 15px;
+}
